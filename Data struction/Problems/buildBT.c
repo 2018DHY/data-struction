@@ -11,6 +11,7 @@ void extern test(void)
 {
     char str[30];
     BinaryTree *b;
+    b=(BinaryTree *)malloc(sizeof(BinaryTree));
     printf("Please inputing BTree:");
     scanf("%s",str);
     CreatBTree(b, str);

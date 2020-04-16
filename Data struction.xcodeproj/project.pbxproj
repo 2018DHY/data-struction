@@ -19,6 +19,8 @@
 		83806D952411E2350036B200 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 83806D942411E2350036B200 /* node.c */; };
 		83806D982411EE820036B200 /* linkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 83806D972411EE820036B200 /* linkedlist.c */; };
 		8385804B241642EC00A7C39C /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 8385804A241642EC00A7C39C /* stack.c */; };
+		83DF3BF32448694900383F05 /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 83DF3BF22448694900383F05 /* graph.c */; };
+		83DF3BF8244869AF00383F05 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 83DF3BF7244869AF00383F05 /* queue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +60,10 @@
 		83806D972411EE820036B200 /* linkedlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = linkedlist.c; sourceTree = "<group>"; };
 		83858049241642EC00A7C39C /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		8385804A241642EC00A7C39C /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		83DF3BF12448694900383F05 /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		83DF3BF22448694900383F05 /* graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graph.c; sourceTree = "<group>"; };
+		83DF3BF6244869AF00383F05 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		83DF3BF7244869AF00383F05 /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,11 +173,31 @@
 				8328CB36243479CD004A4944 /* linearlist */,
 				8328CB37243479EF004A4944 /* linkedlist */,
 				8328CB35243478E4004A4944 /* stack */,
+				83DF3BF42448695F00383F05 /* queue */,
 				8328CB3924347A22004A4944 /* string */,
 				8328CB3F243C1758004A4944 /* BinaryTree */,
+				83DF3BF02448691800383F05 /* Graph */,
 				8328CB312434778D004A4944 /* Problems */,
 			);
 			path = "Data struction";
+			sourceTree = "<group>";
+		};
+		83DF3BF02448691800383F05 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				83DF3BF12448694900383F05 /* graph.h */,
+				83DF3BF22448694900383F05 /* graph.c */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		83DF3BF42448695F00383F05 /* queue */ = {
+			isa = PBXGroup;
+			children = (
+				83DF3BF6244869AF00383F05 /* queue.h */,
+				83DF3BF7244869AF00383F05 /* queue.c */,
+			);
+			path = queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DF3BF32448694900383F05 /* graph.c in Sources */,
 				8328CB2D242EFABD004A4944 /* CMyString.c in Sources */,
 				835E4DA024436DF7005A477E /* buildBT.c in Sources */,
+				83DF3BF8244869AF00383F05 /* queue.c in Sources */,
 				8328CB2A242EF6CE004A4944 /* list.c in Sources */,
 				835E4DA82443EA3C005A477E /* ordinary.c in Sources */,
 				83806D8D2411E1990036B200 /* main.c in Sources */,
