@@ -12,10 +12,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "ordinary.h"
-typedef int ElementType;
+typedef int ElementType1;
 struct linearList
 {
-    ElementType * data;
+    ElementType1 * data;
     int MaxSize;
     int Last;
 };
@@ -26,9 +26,9 @@ void FreeList(LinearList * L);
 Bool ListEmpty(LinearList * L);
 Bool ListFull(LinearList * L);
 int ListLength(LinearList * L);
-ElementType GetElem(LinearList * L, int i);
-int LocateElem(LinearList * L, ElementType x);
-Bool InsertElem(LinearList * L, ElementType x, int i);
+ElementType1 GetElem(LinearList * L, int i);
+int LocateElem(LinearList * L, ElementType1 x);
+Bool InsertElem(LinearList * L, ElementType1 x, int i);
 Bool DeleteElem (LinearList * L, int i);
 void printout (LinearList * L);
 #endif /* list_h */

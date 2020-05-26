@@ -7,36 +7,36 @@
 //
 
 #include "stack.h"
-void FreeStack (Stack *S)
+void FreeStack (Stack *S)//释放栈空间
 {
     free(S->elements);
 }
 
-void MakeEmpty (Stack *S)
+void MakeEmpty (Stack *S)//栈置空
 {
     S->top=-1;
 }
 
-Bool IsStackEmpty (Stack * S)
+Bool IsStackEmpty (Stack * S)//判断栈是否为空
 {
     return (Bool) (S->top==-1);
 }
 
-Bool IsFull (Stack *S)
+Bool IsStackFull (Stack *S)//判断栈是否为满
 {
     return (Bool) (S->top==S->MaxSize-1);
 }
 
-void InitStack (Stack *S,int sz)
+void InitStack (Stack *S,int sz)//创建栈空间，生成一个空栈
 {
     S->MaxSize=sz;
-    S->elements=(ElementType * ) malloc(sizeof(ElementType) * S->MaxSize);
+    S->elements=(ElementType3 * ) malloc(sizeof(ElementType3) * S->MaxSize);
     S->top=-1;
 }
 
-int Push (Stack * S, ElementType item)
+int Push (Stack * S, ElementType3 item)//压栈
 {
-    if (!IsFull(S))
+    if (!IsStackFull(S))
     {
         S->elements[++(S->top)]=item;
         return 0;
@@ -44,7 +44,7 @@ int Push (Stack * S, ElementType item)
     else return -1;
 }
 
-ElementType Pop (Stack * S)
+ElementType3 Pop (Stack * S)//弹栈
 {
     if (!IsStackEmpty(S))
         return S->elements[(S->top)--];
@@ -55,7 +55,7 @@ ElementType Pop (Stack * S)
     }
 }
 
-ElementType GetTop (Stack *S)
+ElementType3 GetTop (Stack *S)//取栈顶的表目
 {
     if (!IsStackEmpty(S))
         return S->elements[S->top];

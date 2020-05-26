@@ -10,13 +10,14 @@
 #include "Josephus.h"
 #include "ListTest.h"
 #include "buildBT.h"
+#include "Caculator.h"
 
 
 int main() {
     // insert code here...
     int a;
     printf("Hallo world!\n");
-    printf("1约瑟夫问题\t2线性表测试\t3个人测试\n");
+    printf("1约瑟夫问题\t2线性表测试\t3个人测试\t4计算器\n");
     scanf("%d",&a);
     
     switch (a)
@@ -24,6 +25,7 @@ int main() {
         case 1:Josephus();break;
         case 2:ListTest();break;
         case 3:test();break;
+        case 4:Calculator();break;
     }
     return 0;
 }

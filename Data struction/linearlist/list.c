@@ -14,7 +14,7 @@ void InitList(LinearList * L, int sz)
     {
         L->MaxSize=sz;
         L->Last=0;
-        L->data=(ElementType * )malloc(sizeof(ElementType) * L->MaxSize);
+        L->data=(ElementType1 * )malloc(sizeof(ElementType1) * L->MaxSize);
     }
 }
 
@@ -30,10 +30,10 @@ Bool ListFull(LinearList * L)
 int ListLength(LinearList * L)
 {return L->Last;}
 
-ElementType GetElem(LinearList * L, int i)
+ElementType1 GetElem(LinearList * L, int i)
 {return (i<0||i>=L->Last) ? NULL : L->data[i];}
 
-int LocateElem(LinearList * L,ElementType x)
+int LocateElem(LinearList * L,ElementType1 x)
 {
     int i;
     for  (i=0; i<L->Last; i++)
@@ -41,7 +41,7 @@ int LocateElem(LinearList * L,ElementType x)
     return -1;
 }
 
-Bool InsertElem (LinearList * L, ElementType x, int i)
+Bool InsertElem (LinearList * L, ElementType1 x, int i)
 {
     int j;
     if (i < 0 || i > L->Last||L->Last==L->MaxSize)

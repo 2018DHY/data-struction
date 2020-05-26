@@ -9,7 +9,7 @@
 #include "node.h"
 #include <stdio.h>
 
-void InitNode(Node *N, ElementType item,Node *ptr)
+void InitNode(Node *N, ElementType2 item,Node *ptr)
 {
     N->data=item;
     N->next=ptr;
@@ -30,7 +30,7 @@ Node *DeleteAfter(Node * P)
     return ptr;
 }
 
-Node  *GetNode(ElementType item , Node * nextPtr)
+Node  *GetNode(ElementType2 item , Node * nextPtr)
 {
     Node * newNode;
     

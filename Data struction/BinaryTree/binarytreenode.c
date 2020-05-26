@@ -7,14 +7,14 @@
 //
 
 #include "binarytreenode.h"
-void InitBinaryTreeNode(BinaryTreeNode * btree,ElementType e,BinaryTreeNode * l,BinaryTreeNode * r)
+void InitBinaryTreeNode(BinaryTreeNode * btree,ElementType5 e,BinaryTreeNode * l,BinaryTreeNode * r)
 {
     btree->LeftChild=l;
     btree->RightChild=r;
     btree->data=e;
 }
 
-BinaryTreeNode * CreateBTree(ElementType item,BinaryTreeNode * lptr,BinaryTreeNode * rptr)
+BinaryTreeNode * CreateBTree(ElementType5 item,BinaryTreeNode * lptr,BinaryTreeNode * rptr)
 {
     BinaryTreeNode * p;
     p=(BinaryTreeNode * )malloc(sizeof(BinaryTreeNode));

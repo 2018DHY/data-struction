@@ -58,7 +58,7 @@ int SetPosition(LinkedList *L, int pos)/*重置当前节点位置的函数*/
     return L->position;
 }
 
-void InsertAt(LinkedList *L,ElementType item)
+void InsertAt(LinkedList *L,ElementType2 item)
 {
     Node * newNode;
     if (!L->size)
@@ -81,7 +81,7 @@ void InsertAt(LinkedList *L,ElementType item)
     L->currPtr=newNode;
     
 }
-void InserLAfter(LinkedList *L,ElementType item)
+void InserLAfter(LinkedList *L,ElementType2 item)
 {
     Node *newNode;
     if (!L->size)
@@ -148,7 +148,7 @@ void DeletLAfter(LinkedList *L)
     L->size--;
 }
 
-ElementType GetData(LinkedList *L)
+ElementType2 GetData(LinkedList *L)
 {
     if (!L->size||!L->currPtr)
     {
@@ -158,7 +158,7 @@ ElementType GetData(LinkedList *L)
     return L->currPtr->data;
 }
 
-void SetData(LinkedList *L, ElementType item)
+void SetData(LinkedList *L, ElementType2 item)
 {
     if (!L->size||L->currPtr)
     {

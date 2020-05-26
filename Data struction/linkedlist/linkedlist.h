@@ -18,18 +18,18 @@ struct linkedList
     int position;
 };
 typedef struct linkedList LinkedList;
-Node *GetNode(ElementType item, Node *ptr);
+Node *GetNode(ElementType2 item, Node *ptr);
 void FreeNode (Node *p);
 void InitLinkedList(LinkedList *);
 Bool IsLinkedlistEmpty(LinkedList *);
 int NextLNode(LinkedList *);
 int SetPositoon(LinkedList *, int pos);
-void InsertAt(LinkedList *, ElementType item);
-void InsertLAfter(LinkedList *,ElementType item);
+void InsertAt(LinkedList *, ElementType2 item);
+void InsertLAfter(LinkedList *,ElementType2 item);
 void DeleteAt (LinkedList *);
 void DeleteLAfter(LinkedList *);
-ElementType GetData(LinkedList *);
-void SetData(LinkedList *,ElementType item);
+ElementType2 GetData(LinkedList *);
+void SetData(LinkedList *,ElementType2 item);
 void Clear(LinkedList *);
 
 

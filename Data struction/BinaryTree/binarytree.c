@@ -49,7 +49,7 @@ Bool TreeIsEmpty(BinaryTree * bt)
     return ((bt->root)? FALSE:TRUE);
 }
 
-Bool getRoot(BinaryTree * bt, ElementType * x)
+Bool getRoot(BinaryTree * bt, ElementType5 * x)
 {
     if(bt-> root)
     {
@@ -60,7 +60,7 @@ Bool getRoot(BinaryTree * bt, ElementType * x)
         return  FALSE;
 }
 
-BinaryTreeNode * MakeTree(BinaryTree * bt, ElementType element, BinaryTreeNode * left, BinaryTreeNode * right)
+BinaryTreeNode * MakeTree(BinaryTree * bt, ElementType5 element, BinaryTreeNode * left, BinaryTreeNode * right)
 {
     bt->root=(BinaryTreeNode *)malloc(sizeof(BinaryTreeNode));
     if(bt->root==NULL)

@@ -11,16 +11,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-typedef int ElementType;
+typedef int ElementType5;
 struct binaryTreeNode
 {
-    ElementType data;
+    ElementType5 data;
     struct binaryTreeNode * LeftChild, * RightChild;
 };
 typedef struct binaryTreeNode BinaryTreeNode;
 
-void InitBinaryTreeNode(BinaryTreeNode * btree,ElementType e,BinaryTreeNode * l,BinaryTreeNode * r);
-BinaryTreeNode * CreateBTree(ElementType item,BinaryTreeNode * lptr,BinaryTreeNode * rptr);
+void InitBinaryTreeNode(BinaryTreeNode * btree,ElementType5 e,BinaryTreeNode * l,BinaryTreeNode * r);
+BinaryTreeNode * CreateBTree(ElementType5 item,BinaryTreeNode * lptr,BinaryTreeNode * rptr);
 
 
 
