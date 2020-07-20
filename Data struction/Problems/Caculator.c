@@ -278,6 +278,6 @@ void Calculator(void)
     }
     ch=a[++k];
 }
-    printf("%d",number->elements[number->top]);
+    printf("%d\n",number->elements[number->top]);
 }
 
