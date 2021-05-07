@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83147000262E8DEF00DA38A0 /* isprime.c in Sources */ = {isa = PBXBuildFile; fileRef = 83146FFF262E8DEF00DA38A0 /* isprime.c */; };
 		8328CB2A242EF6CE004A4944 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 8328CB29242EF6CE004A4944 /* list.c */; };
 		8328CB2D242EFABD004A4944 /* CMyString.c in Sources */ = {isa = PBXBuildFile; fileRef = 8328CB2C242EFABD004A4944 /* CMyString.c */; };
 		8328CB3424347819004A4944 /* Josephus.c in Sources */ = {isa = PBXBuildFile; fileRef = 8328CB3324347819004A4944 /* Josephus.c */; };
@@ -14,11 +15,12 @@
 		8328CB42243C1796004A4944 /* binarytree.c in Sources */ = {isa = PBXBuildFile; fileRef = 8328CB41243C1796004A4944 /* binarytree.c */; };
 		8328CB46243CC86D004A4944 /* binarytreenode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8328CB45243CC86D004A4944 /* binarytreenode.c */; };
 		835E4DA024436DF7005A477E /* buildBT.c in Sources */ = {isa = PBXBuildFile; fileRef = 835E4D9F24436DF7005A477E /* buildBT.c */; };
-		835E4DA82443EA3C005A477E /* ordinary.c in Sources */ = {isa = PBXBuildFile; fileRef = 835E4DA72443EA3C005A477E /* ordinary.c */; };
 		83806D8D2411E1990036B200 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 83806D8C2411E1990036B200 /* main.c */; };
 		83806D952411E2350036B200 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 83806D942411E2350036B200 /* node.c */; };
 		83806D982411EE820036B200 /* linkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 83806D972411EE820036B200 /* linkedlist.c */; };
 		8385804B241642EC00A7C39C /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 8385804A241642EC00A7C39C /* stack.c */; };
+		83AB19CF26022B660027D151 /* ordinary.c in Sources */ = {isa = PBXBuildFile; fileRef = 83AB19CE26022B660027D151 /* ordinary.c */; };
+		83AB19D326022CB40027D151 /* 1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AB19D126022CB40027D151 /* 1.cpp */; };
 		83DF3BF32448694900383F05 /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 83DF3BF22448694900383F05 /* graph.c */; };
 		83DF3BF8244869AF00383F05 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 83DF3BF7244869AF00383F05 /* queue.c */; };
 		83DF3BFE24499F2400383F05 /* Caculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 83DF3BFD24499F2400383F05 /* Caculator.c */; };
@@ -37,6 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		83146FFE262E8DEF00DA38A0 /* isprime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isprime.h; sourceTree = "<group>"; };
+		83146FFF262E8DEF00DA38A0 /* isprime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = isprime.c; sourceTree = "<group>"; };
 		8328CB28242EF6CE004A4944 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		8328CB29242EF6CE004A4944 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
 		8328CB2B242EFABD004A4944 /* CMyString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMyString.h; sourceTree = "<group>"; };
@@ -51,8 +55,6 @@
 		8328CB45243CC86D004A4944 /* binarytreenode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binarytreenode.c; sourceTree = "<group>"; };
 		835E4D9E24436DF7005A477E /* buildBT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buildBT.h; sourceTree = "<group>"; };
 		835E4D9F24436DF7005A477E /* buildBT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buildBT.c; sourceTree = "<group>"; };
-		835E4DA62443EA3C005A477E /* ordinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ordinary.h; sourceTree = "<group>"; };
-		835E4DA72443EA3C005A477E /* ordinary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ordinary.c; sourceTree = "<group>"; };
 		83806D892411E1990036B200 /* Data struction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data struction"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83806D8C2411E1990036B200 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		83806D932411E1CF0036B200 /* node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
@@ -61,12 +63,17 @@
 		83806D972411EE820036B200 /* linkedlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = linkedlist.c; sourceTree = "<group>"; };
 		83858049241642EC00A7C39C /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		8385804A241642EC00A7C39C /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		83AB19CD26022B660027D151 /* ordinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ordinary.h; sourceTree = "<group>"; };
+		83AB19CE26022B660027D151 /* ordinary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ordinary.c; sourceTree = "<group>"; };
+		83AB19D126022CB40027D151 /* 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1.cpp; sourceTree = "<group>"; };
+		83AB19D226022CB40027D151 /* 1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 1.hpp; sourceTree = "<group>"; };
 		83DF3BF12448694900383F05 /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
 		83DF3BF22448694900383F05 /* graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graph.c; sourceTree = "<group>"; };
 		83DF3BF6244869AF00383F05 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		83DF3BF7244869AF00383F05 /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
 		83DF3BFC24499F2400383F05 /* Caculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caculator.h; sourceTree = "<group>"; };
 		83DF3BFD24499F2400383F05 /* Caculator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Caculator.c; sourceTree = "<group>"; };
+		83E245AE254F2C6900ECEECD /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = ../../../QT/5.15.1/Frameworks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,8 @@
 		8328CB312434778D004A4944 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				83146FFE262E8DEF00DA38A0 /* isprime.h */,
+				83146FFF262E8DEF00DA38A0 /* isprime.c */,
 				8328CB3224347819004A4944 /* Josephus.h */,
 				8328CB3324347819004A4944 /* Josephus.c */,
 				8328CB3A2435711D004A4944 /* ListTest.h */,
@@ -145,19 +154,11 @@
 			path = BinaryTree;
 			sourceTree = "<group>";
 		};
-		835E4DA52443EA1D005A477E /* Ordinary */ = {
-			isa = PBXGroup;
-			children = (
-				835E4DA62443EA3C005A477E /* ordinary.h */,
-				835E4DA72443EA3C005A477E /* ordinary.c */,
-			);
-			path = Ordinary;
-			sourceTree = "<group>";
-		};
 		83806D802411E1990036B200 = {
 			isa = PBXGroup;
 			children = (
 				83806D8B2411E1990036B200 /* Data struction */,
+				83E245AD254F2C6900ECEECD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,8 +174,9 @@
 		83806D8B2411E1990036B200 /* Data struction */ = {
 			isa = PBXGroup;
 			children = (
+				83AB19D026022CA50027D151 /* 1 */,
 				83806D8C2411E1990036B200 /* main.c */,
-				835E4DA52443EA1D005A477E /* Ordinary */,
+				83AB19CC26022B470027D151 /* Ordinary */,
 				8328CB36243479CD004A4944 /* linearlist */,
 				8328CB37243479EF004A4944 /* linkedlist */,
 				8328CB35243478E4004A4944 /* stack */,
@@ -185,6 +187,24 @@
 				8328CB312434778D004A4944 /* Problems */,
 			);
 			path = "Data struction";
+			sourceTree = "<group>";
+		};
+		83AB19CC26022B470027D151 /* Ordinary */ = {
+			isa = PBXGroup;
+			children = (
+				83AB19CD26022B660027D151 /* ordinary.h */,
+				83AB19CE26022B660027D151 /* ordinary.c */,
+			);
+			path = Ordinary;
+			sourceTree = "<group>";
+		};
+		83AB19D026022CA50027D151 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				83AB19D126022CB40027D151 /* 1.cpp */,
+				83AB19D226022CB40027D151 /* 1.hpp */,
+			);
+			path = 1;
 			sourceTree = "<group>";
 		};
 		83DF3BF02448691800383F05 /* Graph */ = {
@@ -203,6 +223,14 @@
 				83DF3BF7244869AF00383F05 /* queue.c */,
 			);
 			path = queue;
+			sourceTree = "<group>";
+		};
+		83E245AD254F2C6900ECEECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E245AE254F2C6900ECEECD /* Frameworks */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,16 +293,18 @@
 				83DF3BF32448694900383F05 /* graph.c in Sources */,
 				8328CB2D242EFABD004A4944 /* CMyString.c in Sources */,
 				835E4DA024436DF7005A477E /* buildBT.c in Sources */,
+				83AB19CF26022B660027D151 /* ordinary.c in Sources */,
 				83DF3BF8244869AF00383F05 /* queue.c in Sources */,
 				8328CB2A242EF6CE004A4944 /* list.c in Sources */,
 				83DF3BFE24499F2400383F05 /* Caculator.c in Sources */,
-				835E4DA82443EA3C005A477E /* ordinary.c in Sources */,
+				83AB19D326022CB40027D151 /* 1.cpp in Sources */,
 				83806D8D2411E1990036B200 /* main.c in Sources */,
 				83806D952411E2350036B200 /* node.c in Sources */,
 				8385804B241642EC00A7C39C /* stack.c in Sources */,
 				8328CB42243C1796004A4944 /* binarytree.c in Sources */,
 				8328CB46243CC86D004A4944 /* binarytreenode.c in Sources */,
 				83806D982411EE820036B200 /* linkedlist.c in Sources */,
+				83147000262E8DEF00DA38A0 /* isprime.c in Sources */,
 				8328CB3424347819004A4944 /* Josephus.c in Sources */,
 				8328CB3C2435711D004A4944 /* ListTest.c in Sources */,
 			);
